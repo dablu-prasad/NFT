@@ -2,11 +2,8 @@ import { ethers } from 'ethers'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from "web3modal"
-
 import {nftmarketaddress} from './config'
 import NFT_MarketPlace from '../templates/artifacts/contracts/mainNFT.sol/mainNFT.json'
-
-import Home from './Home'
 import Cards from '../../Components/Cards'
 
 export default function Created_Nfts() {

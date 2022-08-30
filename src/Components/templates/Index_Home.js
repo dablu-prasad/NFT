@@ -3,13 +3,9 @@ import { ethers } from 'ethers'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from "web3modal"
-//import '../../App.css'
 import { nftmarketaddress } from './config'
 import NFT_MarketPlace from './artifacts/contracts/mainNFT.sol/mainNFT.json'
-import Button from 'react-bootstrap/Button';
-
 import Cards from '../../Components/Cards'
-//import Categories from './pages/Categories'
 
 let nfti;
 
